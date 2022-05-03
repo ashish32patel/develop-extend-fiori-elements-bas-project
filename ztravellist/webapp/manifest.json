@@ -140,7 +140,22 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "Travel"
+                            "entitySet": "Travel",
+                            "content": {
+                                "body": {
+                                    "sections": {
+                                        "GeoMap": {
+                                            "template": "sap.fe.demo.ztravellist..ext.GeoMap",
+                                            "position": {
+                                                "anchor": "Booking",
+                                                "placement": "After"
+                                            },
+                                            "type": "XMLFragment",
+                                            "title": "itinerary"
+                                        }
+                                    }
+                                }
+                            }
                         }
                     },
                     "controlAggregation": "midColumnPages",
