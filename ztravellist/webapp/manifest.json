@@ -122,7 +122,8 @@
                             "controlConfiguration": {
                                 "@com.sap.vocabularies.UI.v1.LineItem": {
                                     "tableSettings": {
-                                        "selectAll": true
+                                        "selectAll": true,
+                                        "selectionMode": "Single"
                                     }
                                 }
                             },
